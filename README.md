@@ -1,12 +1,15 @@
 # libthai-cffi
 
 [![License](https://img.shields.io/badge/license-LGPL-blue.svg)](LICENSE)
-[![Travis Status](https://travis-ci.org/whs/libthai-cffi.svg)](https://travis-ci.org/whs/libthai-cffi)
 [![PyPi](https://img.shields.io/pypi/v/libthai-cffi.svg)](https://pypi.python.org/pypi/libthai-cffi)
 
 CFFI binding to libthai
 
+libthai 0.1.25 is required
+
 ## Installation
+
+Make sure that libthai is installed and it is at least 0.1.25.
 
 Install this from pip:
 
