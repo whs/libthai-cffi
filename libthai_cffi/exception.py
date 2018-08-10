@@ -1,0 +1,2 @@
+class InitError(Exception):
+	pass
