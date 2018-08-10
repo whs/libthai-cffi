@@ -3,7 +3,12 @@ from . import _libthai, exception
 
 class Breaker:
     def __init__(self, dictpath=_libthai.ffi.NULL):
-        self._breaker = _libthai.ffi.gc(_libthai.lib.th_brk_new(dictpath), _libthai.lib.th_brk_delete)
+        breaker = _libthai.lib.th_brk_new(dictpath)
+
+        if breaker == _libthai.ffi.NULL:
+            raise exception.InitError
+
+        self._breaker = _libthai.ffi.gc(breaker, _libthai.lib.th_brk_delete)
 
     def find_breaks(self, text, count=100):
         positions = _libthai.ffi.new("int[{:d}]".format(count))
