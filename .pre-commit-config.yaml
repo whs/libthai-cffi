@@ -12,6 +12,7 @@ repos:
   hooks:
   - id: black
     entry: black -l 120 --py36
+    language_version: default
 - repo: local
   hooks:
   - id: pylint
