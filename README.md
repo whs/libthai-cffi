@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-LGPL-blue.svg)](LICENSE)
 [![PyPi](https://img.shields.io/pypi/v/libthai-cffi.svg)](https://pypi.python.org/pypi/libthai-cffi)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 CFFI binding to libthai
 
@@ -19,18 +20,15 @@ $ pip install libthai-cffi
 
 (you may want to write this in your requirements.txt)
 
-## Contributing
+## Developing
 
-To contribute to this project:
+This project is [unmaintained](http://unmaintained.tech/). You may use it, but issues and pull requests might be ignored.
 
-1.  Fork and clone this repository
-2.  Run `python setup.py develop`
-3.  Run `pip install pre-commit && pre-commit install`
-4.  Start hacking
-5.  Run test: `python setup.py test`
-6.  Commit. Pre-commit will warn if you have any changes.
-7.  Submit pull request on GitHub
-8.  Make sure Travis tests pass.
+1.  Run `python setup.py develop`
+2.  Run `pip install pre-commit && pre-commit install`
+3.  Start hacking
+4.  Run test: `python setup.py test`
+5.  Commit. Pre-commit will warn if you have any changes.
 
 ## License
 
